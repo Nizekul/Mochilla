@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\lglaj\\source\\repos\\Mochila\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|c:\\users\\lglaj\\source\\repos\\mochila\\mochila\\csv_resultados\\melhor_geracao.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|solutionrelative:mochila\\csv_resultados\\melhor_geracao.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|c:\\users\\lglaj\\source\\repos\\mochila\\mochila\\algoritmogenetico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|solutionrelative:mochila\\algoritmogenetico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|c:\\users\\lglaj\\source\\repos\\mochila\\mochila\\csv_resultado\\gerarcsvresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|solutionrelative:mochila\\csv_resultado\\gerarcsvresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|c:\\users\\lglaj\\source\\repos\\mochila\\mochila\\cruzamento\\cruzamentouniforme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|solutionrelative:mochila\\cruzamento\\cruzamentouniforme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|c:\\users\\lglaj\\source\\repos\\mochila\\mochila\\csv_resultado\\gerarcsvresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|solutionrelative:mochila\\csv_resultado\\gerarcsvresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|c:\\users\\lglaj\\source\\repos\\mochila\\mochila\\cruzamento\\cruzamentodoispontos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|solutionrelative:mochila\\cruzamento\\cruzamentodoispontos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|c:\\users\\lglaj\\source\\repos\\mochila\\mochila\\csv_resultados\\melhor_geracao.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|solutionrelative:mochila\\csv_resultados\\melhor_geracao.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|c:\\users\\lglaj\\source\\repos\\mochila\\mochila\\algoritmogenetico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|solutionrelative:mochila\\algoritmogenetico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26FB7785-6AB5-4230-BCCF-2C65E099E29D}|Mochila\\Mochila.csproj|c:\\users\\lglaj\\source\\repos\\mochila\\mochila\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CruzamentoDoisPontos.cs",
+              "DocumentMoniker": "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\Cruzamento\\CruzamentoDoisPontos.cs",
+              "RelativeDocumentMoniker": "Mochila\\Cruzamento\\CruzamentoDoisPontos.cs",
+              "ToolTip": "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\Cruzamento\\CruzamentoDoisPontos.cs",
+              "RelativeToolTip": "Mochila\\Cruzamento\\CruzamentoDoisPontos.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAMwDUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T13:10:58.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CruzamentoUniforme.cs",
               "DocumentMoniker": "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\Cruzamento\\CruzamentoUniforme.cs",
               "RelativeDocumentMoniker": "Mochila\\Cruzamento\\CruzamentoUniforme.cs",
@@ -55,52 +72,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "melhor_geracao.csv",
               "DocumentMoniker": "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\CSV_Resultados\\melhor_geracao.csv",
               "RelativeDocumentMoniker": "Mochila\\CSV_Resultados\\melhor_geracao.csv",
               "ToolTip": "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\CSV_Resultados\\melhor_geracao.csv",
               "RelativeToolTip": "Mochila\\CSV_Resultados\\melhor_geracao.csv",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
               "WhenOpened": "2024-08-24T20:16:34.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GerarCSVResultado.cs",
               "DocumentMoniker": "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\CSV_Resultado\\GerarCSVResultado.cs",
               "RelativeDocumentMoniker": "Mochila\\CSV_Resultado\\GerarCSVResultado.cs",
-              "ToolTip": "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\CSV_Resultado\\GerarCSVResultado.cs",
-              "RelativeToolTip": "Mochila\\CSV_Resultado\\GerarCSVResultado.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAA+AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\CSV_Resultado\\GerarCSVResultado.cs*",
+              "RelativeToolTip": "Mochila\\CSV_Resultado\\GerarCSVResultado.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-24T19:59:51.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AlgoritmoGenetico.cs",
               "DocumentMoniker": "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\AlgoritmoGenetico.cs",
               "RelativeDocumentMoniker": "Mochila\\AlgoritmoGenetico.cs",
               "ToolTip": "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\AlgoritmoGenetico.cs",
               "RelativeToolTip": "Mochila\\AlgoritmoGenetico.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAvwDUAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T00:19:28.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\Program.cs",
               "RelativeDocumentMoniker": "Mochila\\Program.cs",
               "ToolTip": "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\Program.cs",
               "RelativeToolTip": "Mochila\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwCMAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T15:07:29.489Z",
               "EditorCaption": ""

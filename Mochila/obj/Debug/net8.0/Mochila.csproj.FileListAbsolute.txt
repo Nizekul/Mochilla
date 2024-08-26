@@ -12,3 +12,4 @@ C:\Users\lglaj\source\repos\Mochila\Mochila\obj\Debug\net8.0\refint\Mochila.dll
 C:\Users\lglaj\source\repos\Mochila\Mochila\obj\Debug\net8.0\Mochila.pdb
 C:\Users\lglaj\source\repos\Mochila\Mochila\obj\Debug\net8.0\Mochila.genruntimeconfig.cache
 C:\Users\lglaj\source\repos\Mochila\Mochila\obj\Debug\net8.0\ref\Mochila.dll
+C:\Users\lglaj\source\repos\Mochila\Mochila\obj\Debug\net8.0\Mochila.sourcelink.json
