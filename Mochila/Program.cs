@@ -2,7 +2,9 @@
 using Mochila;
 using Mochila.Cruzamento;
 using Mochila.CSV_Resultado;
+using Mochila.GerarCSVParaGraficos;
 using Mochila.SelecaoPais;
+
 
 class Program
 {
@@ -37,7 +39,7 @@ class Program
         // Lista de configurações a serem testadas
         string[] configuracoes = { "mutacao1", "mutacao5", "roleta", "torneio", "elitismo", "somente_filhos", "uniforme", "dois_pontos" };
 
-        // Itera sobre cada configuração
+        // Logica para fazer Analise T-Student - 30x de cada configuração com 1000 gerações
         foreach (string configuracao in configuracoes)
         {
             melhoresIndividuosPorConfiguracao[configuracao] = new List<Individuo>();
@@ -51,7 +53,7 @@ class Program
 
                 // Gera a população e obtém o melhor indivíduo
                 var melhorGeracao = algoritmoGenetico.GerarIndividuo(elitismo);
-                Individuo melhorIndividuo = melhorGeracao.OrderByDescending(ind => ind.Fit).First();
+                Individuo melhorIndividuo = melhorGeracao.Item1.OrderByDescending(ind => ind.Fit).First();
 
                 if (melhorIndividuo != null)
                 {
@@ -62,7 +64,26 @@ class Program
             // Exporta os melhores indivíduos para um arquivo CSV
             gerarCSVResultado.ExportarMelhoresIndividuos(melhoresIndividuosPorConfiguracao[configuracao], configuracao);
         }
-        
+
+        Dictionary<string, List<Individuo>> melhoresIndividuosPorGeracao = new Dictionary<string, List<Individuo>>();
+        GerarCSVGraficos gerarExcelGraficos = new GerarCSVGraficos();
+
+        foreach (string configuracao in configuracoes)
+        {
+            melhoresIndividuosPorGeracao[configuracao] = new List<Individuo>();
+            bool elitismo = configuracao != "somente_filhos";
+            AlgoritmoGenetico algoritmoGenetico = CriarAlgoritmoGenetico(configuracao, items, taxaMutacao1, taxaMutacao5, elitismo);
+
+            var geracoes = algoritmoGenetico.GerarIndividuo(elitismo);
+
+            for (int i = 0; i < geracoes.Item2.Count; i++)
+            {
+                melhoresIndividuosPorGeracao[configuracao].Add(geracoes.Item2[i]);
+            }
+        }
+
+        gerarExcelGraficos.ExportarMelhoresIndividuos(melhoresIndividuosPorGeracao);
+
     }
     // Método para criar uma instância de AlgoritmoGenetico com base na configuração
     private static AlgoritmoGenetico CriarAlgoritmoGenetico(string configuracao, Item[] items, double taxaMutacao1, double taxaMutacao5, bool elitismo)
@@ -89,4 +110,6 @@ class Program
                 throw new ArgumentException("Configuração desconhecida.");
         }
     }
+
+
 }

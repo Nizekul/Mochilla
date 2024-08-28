@@ -20,20 +20,21 @@ namespace Mochila
             _cruzamento = cruzamento;
         }
 
-        public Individuo[] GerarIndividuo(bool elitismo)
+        public (Individuo[], List<Individuo>) GerarIndividuo(bool elitismo)
         {
             Individuo[] populacao = GerarPopulacaoInicial();
 
             // Se for utilizar o Elitismo
             int numElitismo = (int)(0.10 * 30);
-            Individuo[] elitismoSelecao = populacao.OrderByDescending(i => i.Fit).Take(numElitismo).ToArray(); ;
+            Individuo[] elitismoSelecao = populacao.OrderByDescending(i => i.Fit).Take(numElitismo).ToArray();
+            List<Individuo> melhoresIndividuosPorGeracao = new List<Individuo>();
 
             for (int geracao = 0; geracao < _geracoes; geracao++)
             {
                 Individuo[] pais = _selecaoPais.SelecionarPais(populacao);
                 List<Individuo> filhos = new List<Individuo>();
 
-                for (int j = 0; j < pais.Length; j+=2)
+                for (int j = 0; j < pais.Length; j += 2)
                 {
                     Individuo pai1 = pais[j];
                     Individuo pai2 = pais[(j + 1) % pais.Length];
@@ -46,10 +47,14 @@ namespace Mochila
                     filhos.Add(filho2);
                 }
 
-               populacao = elitismo ? elitismoSelecao.Concat(filhos).Take(populacao.Length).ToArray() : populacao.ToArray();
+                populacao = elitismo ? elitismoSelecao.Concat(filhos).Take(populacao.Length).ToArray() : populacao.ToArray();
+
+                Individuo melhorIndividuo = populacao.OrderByDescending(i => i.Fit).First();
+                melhoresIndividuosPorGeracao.Add(melhorIndividuo);
             }
 
-            return populacao;
+
+            return (populacao, melhoresIndividuosPorGeracao);
         }
 
         private Individuo[] GerarPopulacaoInicial()
