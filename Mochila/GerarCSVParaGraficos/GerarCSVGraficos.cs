@@ -13,13 +13,10 @@ namespace Mochila.GerarCSVParaGraficos
         {
             StringBuilder csvContent = new StringBuilder();
 
-            // Obter todas as chaves (configurações) para a primeira linha do CSV
             var configuracoes = resultados.Keys;
 
-            // Adiciona o cabeçalho ao CSV
-            csvContent.AppendLine(string.Join(",", configuracoes));
+            csvContent.AppendLine("Geração," + string.Join(",", configuracoes));
 
-            // Determinar o número máximo de linhas necessárias
             int maxLinhas = 0;
             foreach (var lista in resultados.Values)
             {
@@ -29,10 +26,12 @@ namespace Mochila.GerarCSVParaGraficos
                 }
             }
 
-            // Preencher os dados de cada configuração
             for (int i = 0; i < maxLinhas; i++)
             {
                 List<string> linha = new List<string>();
+
+                linha.Add((i + 1).ToString());
+
                 foreach (var configuracao in configuracoes)
                 {
                     if (i < resultados[configuracao].Count)
@@ -41,7 +40,7 @@ namespace Mochila.GerarCSVParaGraficos
                     }
                     else
                     {
-                        linha.Add(""); // Adiciona uma célula vazia se não houver mais indivíduos para essa configuração
+                        linha.Add(""); 
                     }
                 }
 

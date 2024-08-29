@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mochila")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2d75b2a0c6654cc5298033f55e404efb11ff7a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fa94491591c73466f43687fbb3715d829839c46")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mochila")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mochila")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
