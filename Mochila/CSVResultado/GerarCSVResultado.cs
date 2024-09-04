@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mochila.CSV_Resultado
+namespace Mochila.CSVResultado
 {
     public class GerarCSVResultado
     {
         public void ExportarMelhoresIndividuos(List<Individuo> melhoresIndividuos, string configuracao)
         {
             string nomeArquivo = configuracao + ".csv";
-            string caminho = "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\CSV_Resultados";
+            string caminho = "C:\\Users\\lglaj\\source\\repos\\Mochila\\Mochila\\CSVResultados";
 
             string caminhoArquivo = Path.Combine(caminho, nomeArquivo);
 

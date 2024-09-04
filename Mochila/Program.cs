@@ -1,7 +1,7 @@
 ﻿
 using Mochila;
 using Mochila.Cruzamento;
-using Mochila.CSV_Resultado;
+using Mochila.CSVResultado;
 using Mochila.GerarCSVParaGraficos;
 using Mochila.SelecaoPais;
 
