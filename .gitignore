@@ -14,6 +14,7 @@ nupkg/
 
 # Visual Studio
 .vs/
+/Mochila/bin
 
 # Fleet
 .fleet/
@@ -44,3 +45,6 @@ msbuild.err
 msbuild.wrn
 /busca-gulosa/obj
 .vs/Mochila/FileContentIndex/1719289d-1148-4509-a66f-65eb8fe9e1a1.vsidx
+bin/
+/Mochila/obj
+obj/
